@@ -7,6 +7,8 @@ use Log::Any '$log';
 
 use parent qw(Module::Patch);
 
+# VERSION
+
 my $code = sub {
     my $ctx = shift;
 
@@ -43,6 +45,9 @@ sub patch_data {
         ],
     };
 }
+
+1;
+# ABSTRACT: Convert {} to [] or vice versa to match functions' expectations
 
 =head1 SYNOPSIS
 
