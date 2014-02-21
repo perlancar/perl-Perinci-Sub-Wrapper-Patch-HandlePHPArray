@@ -13,8 +13,6 @@ my $code = sub {
     my $ctx = shift;
 
     my ($self, %args) = @_;
-    die "Sorry, this patch only works when normalize_schemas is turned on"
-        unless $self->{_args}{normalize_schemas};
 
     $ctx->{orig}->(@_);
 
