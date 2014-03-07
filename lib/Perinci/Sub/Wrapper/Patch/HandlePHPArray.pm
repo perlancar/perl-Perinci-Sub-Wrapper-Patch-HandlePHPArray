@@ -16,7 +16,7 @@ my $code = sub {
 
     $ctx->{orig}->(@_);
 
-    $self->select_section('before_call_accept_args');
+    $self->select_section('before_call_before_arg_validation');
 
     my $args = $self->{_meta}{args};
     for my $an (sort keys %$args) {
