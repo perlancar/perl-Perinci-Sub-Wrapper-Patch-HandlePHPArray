@@ -1,13 +1,14 @@
 package Perinci::Sub::Wrapper::Patch::HandlePHPArray;
 
+# DATE
+# VERSION
+
 use 5.010001;
 use strict;
 use warnings;
-use Log::Any '$log';
+use Log::Any::IfLOG '$log';
 
 use parent qw(Module::Patch);
-
-# VERSION
 
 my $code = sub {
     my $ctx = shift;
