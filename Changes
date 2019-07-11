@@ -1,24 +1,24 @@
-0.04    2017-07-10 (PERLANCAR)
+0.04    2017-07-10  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Replace Log::Any with Log::ger.
 
 
-0.03    2015-08-18 (PERLANCAR)
+0.03    2015-08-18  Released-By: PERLANCAR
 
 	- No functional changes.
 
 	- Switch from Log::Any to Log::Any::IfLOG.
 
 
-0.02     2014-03-07 (SHARYANTO)
+0.02     2014-03-07  Released-By: SHARYANTO
 
          - No functional changes.
 
          - Adjust to Perinci::Sub::Wrapper 0.51.
 
 
-0.01     2013-09-06 (SHARYANTO)
+0.01     2013-09-06  Released-By: SHARYANTO
 
          - First release.
